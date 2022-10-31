@@ -1,0 +1,68 @@
+.heading {
+  margin-bottom: 5px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: open sans;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+.contain {
+  width: 1400px;
+  margin: auto;
+}
+.line {
+  border-bottom: 3px solid black;
+  width: 100px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.card-title {
+  font-size: 15px;
+  text-align: center;
+}
+
+.card-text {
+  font-size: 12px;
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+  border-bottom: 0.5px solid rgb(228, 223, 223);
+}
+
+h5 a {
+  color: black;
+  text-decoration: none;
+}
+
+h5 a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+p a {
+  color: black;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.card-text:hover {
+  font-size: 12px;
+  font-weight: bold;
+}
+.owl-nav button.owl-prev {
+  position: absolute;
+  left: -30px;
+  top: 170px;
+  font-size: 30px;
+}
+
+.owl-nav button.owl-next {
+  position: absolute;
+  right: -30px;
+  top: 170px;
+}

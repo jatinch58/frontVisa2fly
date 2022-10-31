@@ -1,0 +1,23 @@
+.middle_body {
+  text-align: center;
+}
+.middle_body > h3 {
+  margin-top: 40px;
+}
+.middle_body > hr {
+  border-top: 4px solid #7c4dff;
+  width: 120px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.middle_body > p {
+  font-size: small;
+}
+.cards_div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}

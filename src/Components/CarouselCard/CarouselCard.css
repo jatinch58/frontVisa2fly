@@ -1,0 +1,33 @@
+.card {
+  text-align: center;
+  width: 250px;
+  border-radius: 20px;
+  padding: 20px;
+  transition: box-shadow 0.2s ease-in-out;
+  margin-bottom: 50px;
+}
+.card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.card > h5 {
+  margin-top: 20px;
+}
+.card > p {
+  font-size: small;
+  margin-top: 10px;
+}
+.card > button {
+  text-align: center;
+  margin-bottom: -30px;
+  width: 120px;
+  margin-left: 50px;
+  border-radius: 10px;
+  height: 30px;
+  border-width: 0;
+  color: white;
+  background-color: #7c4dff;
+  transition: box-shadow 0.2s ease-in-out;
+}
+.card > button:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}

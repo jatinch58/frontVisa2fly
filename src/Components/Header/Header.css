@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2vh;
+  padding-right: 2vw;
+}
+.menu_items {
+  display: flex;
+  width: 50vw;
+  justify-content: space-evenly;
+}
+.menu_items > h3 {
+  color: white;
+}
+.menu_items > p {
+  color: white;
+}
+.login_signup {
+  display: flex;
+  width: 12vw;
+  justify-content: space-evenly;
+}
+.login_signup > button {
+  background-color: white;
+  color: #112284;
+  border: 0;
+  border-radius: 5%;
+  width: 70px;
+  height: 30px;
+  font-weight: 550;
+}
+.login_signup > p {
+  color: white;
+}
+.other_selector {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: 0;
+  width: auto;
+  font-weight: 700;
+  font-size: medium;
+  height: 25px;
+  border-color: transparent;
+}
+.other_selector > option {
+  background-color: white;
+  color: black;
+}
+.other_selector > option:after {
+  background-color: green;
+  color: black;
+}

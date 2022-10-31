@@ -1,0 +1,19 @@
+.card {
+  text-align: center;
+  width: 250px;
+  border-radius: 20px;
+  transition: box-shadow 0.2s ease-in-out;
+  padding: 20px;
+  border: none;
+  margin-top: 10px;
+}
+.card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.card > h5 {
+  margin-top: 20px;
+}
+.card > p {
+  font-size: small;
+  margin-top: 10px;
+}
